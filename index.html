@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bán Template Quản Lý Tài Chính</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Template Quản Lý Tài Chính Ngân Hàng</h1>
+        <p>Nhập thông tin để nhận link tải miễn phí hoặc donate để ủng hộ!</p>
+        <img src="https://via.placeholder.com/300x200?text=Anh+Minh+Template" alt="Hình ảnh sản phẩm"> <!-- Thay bằng hình thật nếu có -->
+        <form id="downloadForm">
+            <label for="name">Họ tên:</label>
+            <input type="text" id="name" placeholder="Nguyễn Văn A" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="email@example.com" required>
+            <button type="submit">Nhận Link Tải</button>
+        </form>
+        <p>Hoặc donate để mua premium: <a href="https://www.paypal.me/tenban" target="_blank">PayPal</a> hoặc quét Momo (thêm QR code nếu có).</p>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
